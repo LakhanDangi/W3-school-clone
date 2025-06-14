@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>clone of w3 school </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar-top">
+            <a href="https://www.w3schools.com/">
+            <img src="w3.png" alt="Logo" class="logo" /></a>
+            <nav class="nav-links">
+                <ul>
+                    <li> <a href="">tutorials</a></li>
+                    <li> <a href="">Exercis</a></li>
+                    <li> <a href="">Services</a></li>
+                    <li> <a href="">Certificates</a></li>
+                </ul>
+            </nav>
+
+             <!-- Sign In Button -->
+<a href="#" class="sign-in-btn" onclick="openPopup()">Sign In</a>
+
+<!-- Sign In Popup -->
+<div id="signin-popup" class="popup-overlay">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <h2>Sign in</h2>
+    <p>Get access to more learning features</p>
+    <p>Don't have an account? <a href="#">Register</a></p>
+
+    <div class="social-icons">
+      <button>🔍 Google</button>
+      <button>📘 Facebook</button>
+      <button>🐱 GitHub</button>
+      <button>🔒 SSO</button>
+    </div>
+
+    <div class="or-line">or</div>
+
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <a href="#">Forgot your password?</a>
+    <button class="green-btn">Sign In</button>
+  </div>
+</div>
+
+        </div>
+        <div class="navbar-botto">
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a></li>
+                <LI><A href="https://www.w3schools.com/sql/default.asp">SQL</A></LI>
+                <li><a href="https://www.w3schools.com/python/default.asp">PYTHON</a></li>
+                <li><a href="https://www.w3schools.com/java/default.asp">JAVA</a></li>
+                <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+                <li><a href="https://www.w3schools.com/howto/default.asp">HOW TO</a>
+                <li><a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a>
+               <li><a href="https://www.w3schools.com/c/index.php">C</a> </li>
+               <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
+               <li><a href="https://www.w3schools.com/cs/index.php">C#</a></li>
+               <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a></li>
+               <LI><a href="https://www.w3schools.com/react/default.asp">REACT</a></LI>
+               <li><a href="https://www.w3schools.com/mysql/default.asp">MYSQL</a></li>
+               <li><a href="https://www.w3schools.com/jquery/default.asp">JQUERY</a></li>
+               
+            </ul>
+        </div>
+    </header>
+  <main> <section class="hero-section">
+    <div class="hero-content">
+      <h1>Learn to code</h1>
+       <i><h3>with the world’s largest web developer site</h3></i>
+        <input type="text" placeholder="Search our tutorials">
+        <h3><a href="#">Not sure where to begin?</a></h3>
+    </div> </section>
+    <section class="example-box">
+    <h2>HTML Example:</h2>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;HTML Tutorial&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;h1&gt;This is a heading&lt;/h1&gt;
+  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    <button class="green-btn">Try it Yourself</button>
+  </section>
+
+  <section class="more-content">
+    <h2>Continue Learning</h2>
+    <p>Explore CSS, JavaScript, Python and more!</p>
+  </section>
+</main>
+<script>
+  function openPopup() {
+    document.getElementById("signin-popup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("signin-popup").style.display = "none";
+  }
+</script>
+
+
+</body>
+
+</html>
