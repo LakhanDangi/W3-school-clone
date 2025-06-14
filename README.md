@@ -1,7 +1,7 @@
 # W3-school-clone
 # 🌐 W3Schools Homepage Clone
 
-This is a static frontend clone of the W3Schools homepage, created for learning and practice purposes using HTML and CSS.  
+This is a creative frontend clone of the W3Schools homepage, created for learning and practice purposes using HTML and CSS.  
 
 ## 🔍 Features
 
